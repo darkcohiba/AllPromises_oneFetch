@@ -15,3 +15,5 @@ const fetch1 = fetch(url1).then(response => response.json());
 const fetch2 = fetch(url2).then(response => response.json());
 const allData = Promise.all([fetch1, fetch2]);
 allData.then(data => console.log(data))
+
+
